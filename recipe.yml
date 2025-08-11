@@ -1,0 +1,23 @@
+name: "Extra Product"
+type: "Content Type"
+description: Adds a product content type.
+recipes:
+  - extra_paragraphs
+  - extra_view_modes
+install:
+  - entity_reference_revisions
+  - file
+  - image
+  - image_widget_crop
+  - link
+  - menu_ui
+  - node
+  - options
+  - paragraphs
+  - path
+  - taxonomy
+  - text
+  - user
+  - video_embed_field
+config:
+  strict: false

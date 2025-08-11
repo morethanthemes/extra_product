@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mt_additional_feature.field_mt_adf_body
+    - field.field.paragraph.mt_additional_feature.field_mt_adf_fa_icon
+    - field.field.paragraph.mt_additional_feature.field_mt_adf_image
+    - field.field.paragraph.mt_additional_feature.field_mt_adf_title
+    - image.style.16_9_1312x738_focal_point_webp
+    - paragraphs.paragraphs_type.mt_additional_feature
+  module:
+    - fontawesome
+    - image
+    - text
+id: paragraph.mt_additional_feature.default
+targetEntityType: paragraph
+bundle: mt_additional_feature
+mode: default
+content:
+  field_mt_adf_body:
+    type: text_default
+    label: hidden
+    settings: {}
+    third_party_settings: {}
+    weight: 4
+    region: content
+  field_mt_adf_fa_icon:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {}
+    weight: 2
+    region: content
+  field_mt_adf_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: 16_9_1312x738_focal_point_webp
+    third_party_settings: {}
+    weight: 0
+    region: content
+  field_mt_adf_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {}
+    weight: 3
+    region: content
+hidden: {}

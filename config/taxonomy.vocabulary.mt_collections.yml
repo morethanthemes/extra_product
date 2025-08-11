@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {}
+name: "Product Categories"
+vid: mt_collections
+description: "Use this vocabulary to create and manage tags for the Product content type. These tags help categorize and group products, making them easier for users to find and filter."
+weight: 0

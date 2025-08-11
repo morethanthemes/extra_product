@@ -1,0 +1,16 @@
+{
+    "name": "morethanthemes/extra_service",
+    "description": "Adds a service content type.",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/core": ">=10.4 || ^11",
+        "drupal/entity_reference_revisions": "^1.12",
+        "drupal/fontawesome": "^3.0",
+        "drupal/image_widget_crop": "^3.0",
+        "drupal/paragraphs": "^1.19",
+        "drupal/video_embed_field": "^3.0@beta",
+        "morethanthemes/extra_paragraphs": "^1.0",
+        "morethanthemes/extra_view_modes": "^1.0"
+    },
+    "version": "1.0.0"
+}
