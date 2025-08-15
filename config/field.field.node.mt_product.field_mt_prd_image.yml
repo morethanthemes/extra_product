@@ -10,28 +10,28 @@ id: node.mt_product.field_mt_prd_image
 field_name: field_mt_prd_image
 entity_type: node
 bundle: mt_product
-label: 'In-page Image(s)'
-description: ''
+label: "In-page Image(s)"
+description: ""
 required: false
 translatable: false
-default_value: {  }
-default_value_callback: ''
+default_value: {}
+default_value_callback: ""
 settings:
-  handler: 'default:file'
-  handler_settings: {  }
+  handler: "default:file"
+  handler_settings: {}
   file_directory: products
-  file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
-  max_resolution: ''
-  min_resolution: ''
+  file_extensions: "png gif jpg jpeg"
+  max_filesize: ""
+  max_resolution: ""
+  min_resolution: ""
   alt_field: true
   alt_field_required: true
   title_field: true
   title_field_required: false
   default_image:
-    uuid: 9a3740b8-307c-4709-8642-f8290c90d09e
-    alt: 'Default image'
-    title: ''
+    uuid: 6e8b0163-3122-4c14-8ff7-900e25be4ec0
+    alt: "Default image"
+    title: ""
     width: 1280
     height: 690
 field_type: image

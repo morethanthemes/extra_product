@@ -1,0 +1,366 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ce69d9ec-d798-4d91-bfe5-04f2ad20fa33
+  bundle: mt_product
+  default_langcode: en
+  depends:
+    ff5679f0-1f89-4068-91b6-05766c62407d: taxonomy_term
+    1ba218dc-1ca4-4f78-9bc2-b377d5b19cd3: file
+    15f3026d-480d-41dc-a174-e4a0d0857369: file
+    99c3707e-38fe-49dd-ab4b-209ceeb18182: file
+    2e8832c4-37ee-4c5b-9dc4-ba8c8c66a90c: file
+    4fc62b25-1e2c-4f98-96f2-2531704bdf37: file
+    2eb0b195-6243-44c6-b15c-165a0d3c0643: file
+    2007fdfa-bec1-413c-b703-ab36272dab38: taxonomy_term
+    ace88921-fa77-42ea-847d-7a025d329d25: taxonomy_term
+    d6453b70-f535-4375-8df3-c00e49f080e8: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'First Product'
+  created:
+    -
+      value: 1755277562
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /products/first-product
+      langcode: en
+      pathauto: 0
+  field_mt_prd_availability:
+    -
+      value: in_stock
+  field_mt_prd_body:
+    -
+      value: '<h3>Design Features</h3><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>'
+      format: content_format
+      summary: 'Phosfluorescently e-enable adaptive synergy for strategic quality vectors.'
+  field_mt_prd_buy_link:
+    -
+      uri: 'https://morethanthemes.onfastspring.com/300642734'
+      title: 'Buy Now'
+      options: {  }
+  field_mt_prd_categories:
+    -
+      entity: ff5679f0-1f89-4068-91b6-05766c62407d
+  field_mt_prd_content_collapses:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1762b7d7-a5f4-474d-9ba9-f743a79d6faf
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278223
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q1. First Question'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3e5746fd-2537-4126-b15e-96ee16bca7c6
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278323
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q2. Second Question'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7469bc9b-1468-46a5-b4fb-65fd8cad98a8
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278331
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q3. Third Question'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 76ca55d8-a382-421c-b366-77c27fb0d3af
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278339
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q4. Fourth Question'
+  field_mt_prd_delivery_options:
+    -
+      value: '<ul><li>Free Shipping</li><li>30 days return free of charge</li><li>Pick up at a example.com collection point</li><li>Day and night customer service</li></ul>'
+      format: content_format
+  field_mt_prd_image:
+    -
+      entity: 1ba218dc-1ca4-4f78-9bc2-b377d5b19cd3
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+    -
+      entity: 15f3026d-480d-41dc-a174-e4a0d0857369
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+    -
+      entity: 99c3707e-38fe-49dd-ab4b-209ceeb18182
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+    -
+      entity: 2e8832c4-37ee-4c5b-9dc4-ba8c8c66a90c
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+    -
+      entity: 4fc62b25-1e2c-4f98-96f2-2531704bdf37
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+    -
+      entity: 2eb0b195-6243-44c6-b15c-165a0d3c0643
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+  field_mt_prd_most_popular:
+    -
+      value: true
+  field_mt_prd_price:
+    -
+      value: $29.00
+  field_mt_prd_pricing_table_item:
+    -
+      value: 'Account Balance'
+    -
+      value: 'Online Interface'
+    -
+      value: 'Investment Monitoring'
+    -
+      value: 'Weekly Reports'
+    -
+      value: 'One-on-one consultation'
+  field_mt_prd_product_code:
+    -
+      value: '800413'
+  field_mt_prd_specifications:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0054fdca-8284-4611-8b7d-5af5a65963fb
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278223
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Screen resolution Tooltip:'
+          field_mt_prd_specification_value:
+            -
+              value: '14 inches'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e4e3b6e4-56bb-4cd4-b8f3-566fcce1a31a
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278302
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Type of panel:'
+          field_mt_prd_specification_value:
+            -
+              value: TN
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d92fd821-fc4a-4e10-99bc-2df6712b5488
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278306
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Screen finish type:'
+          field_mt_prd_specification_value:
+            -
+              value: Mat
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3c130b4b-d154-49bc-94b4-dbac35e104c3
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755278309
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Color:'
+          field_mt_prd_specification_value:
+            -
+              value: 'Light Blue'
+  field_mt_prd_subheader_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise.</p>'
+      format: content_format
+      summary: ''
+  field_mt_prd_subtitle:
+    -
+      value: 'Next generation power'
+  field_mt_prd_tags:
+    -
+      entity: 2007fdfa-bec1-413c-b703-ab36272dab38
+    -
+      entity: ace88921-fa77-42ea-847d-7a025d329d25
+  field_mt_prd_teaser_image:
+    -
+      entity: d6453b70-f535-4375-8df3-c00e49f080e8
+      alt: 'product teaser image'
+      title: ''
+      width: 1280
+      height: 690

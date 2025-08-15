@@ -1,0 +1,428 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f40a1506-942d-428c-9d05-eba5bbfca71b
+  bundle: mt_product
+  default_langcode: en
+  depends:
+    ff5679f0-1f89-4068-91b6-05766c62407d: taxonomy_term
+    7b4ebcd9-48aa-44b2-9dcc-434116750a04: file
+    da24d3b6-4ef3-46f9-af0e-ca047c2a7c88: file
+    b5b50b6d-5412-4350-8e61-1da3410980b7: file
+    b969e413-12bb-4fb1-bbda-bccc6bf78d01: file
+    c1bc1efb-9b35-46bd-a0e7-6560a731c10e: taxonomy_term
+    1b87ea25-423b-4199-9de4-205ef9fb133a: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Product'
+  created:
+    -
+      value: 1755276970
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /products/second-product
+      langcode: en
+      pathauto: 0
+  field_mt_prd_additional_features:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8da533b3-93a5-4e33-9718-7252e2d6a602
+          bundle: mt_additional_feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277044
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_adf_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>'
+              format: content_format
+          field_mt_adf_fa_icon:
+            -
+              icon_name: road
+              style: fa-far
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ''
+                    secondary: ''
+                  inherit-color: 0
+                  color:
+                    primary: '#000000'
+                    secondary: '#000000'
+                masking:
+                  mask: ''
+                  style: fa-fas
+                power_transforms:
+                  scale:
+                    type: ''
+                    value: ''
+                  position_y:
+                    type: ''
+                    value: ''
+                  position_x:
+                    type: ''
+                    value: ''
+          field_mt_adf_title:
+            -
+              value: 'Looking For Your Dvd Printing Solution'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: fdc1ab98-5cd9-41fd-ac80-becf5a2f9410
+          bundle: mt_additional_feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277233
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_adf_body:
+            -
+              value: '<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>'
+              format: content_format
+          field_mt_adf_fa_icon:
+            -
+              icon_name: signal
+              style: fa-fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ''
+                    secondary: ''
+                  inherit-color: 0
+                  color:
+                    primary: '#000000'
+                    secondary: '#000000'
+                masking:
+                  mask: ''
+                  style: fa-fas
+                power_transforms:
+                  scale:
+                    type: ''
+                    value: ''
+                  position_y:
+                    type: ''
+                    value: ''
+                  position_x:
+                    type: ''
+                    value: ''
+          field_mt_adf_title:
+            -
+              value: 'Becoming A Dvd Repair Expert Online'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a59b5470-8d2f-4f0d-aa96-6ea2b32e20e3
+          bundle: mt_additional_feature
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277252
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_adf_body:
+            -
+              value: '<p>Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
+              format: content_format
+          field_mt_adf_fa_icon:
+            -
+              icon_name: fire
+              style: fa-fas
+              settings:
+                duotone:
+                  swap-opacity: 0
+                  opacity:
+                    primary: ''
+                    secondary: ''
+                  inherit-color: 0
+                  color:
+                    primary: '#000000'
+                    secondary: '#000000'
+                masking:
+                  mask: ''
+                  style: fa-fas
+                power_transforms:
+                  scale:
+                    type: ''
+                    value: ''
+                  position_y:
+                    type: ''
+                    value: ''
+                  position_x:
+                    type: ''
+                    value: ''
+          field_mt_adf_title:
+            -
+              value: 'Are You Ready To Buy A Home Theater Audio System'
+  field_mt_prd_availability:
+    -
+      value: in_stock
+  field_mt_prd_buy_link:
+    -
+      uri: 'https://morethanthemes.onfastspring.com/300642734'
+      title: 'Buy Now'
+      options: {  }
+  field_mt_prd_categories:
+    -
+      entity: ff5679f0-1f89-4068-91b6-05766c62407d
+  field_mt_prd_highlight:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9e19ea47-8ba3-4487-b9dc-e431b9986839
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277044
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: 7b4ebcd9-48aa-44b2-9dcc-434116750a04
+              alt: image
+              title: ''
+              width: 850
+              height: 460
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/products/first-product'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of first feature'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a4c99b81-e410-4ac9-9309-4fa0f8d7d4bd
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277131
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: da24d3b6-4ef3-46f9-af0e-ca047c2a7c88
+              alt: image
+              title: ''
+              width: 850
+              height: 460
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/products/first-product'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of Second Feature'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 45abb06c-65ad-44db-b305-b728bab4b99a
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277157
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: b5b50b6d-5412-4350-8e61-1da3410980b7
+              alt: image
+              title: ''
+              width: 850
+              height: 460
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/products/first-product'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of third feature'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 62b19b4e-cb7d-4d89-8007-8580bb60e73f
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755277184
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: b969e413-12bb-4fb1-bbda-bccc6bf78d01
+              alt: image
+              title: ''
+              width: 850
+              height: 460
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/products/first-product'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of fourth feature'
+  field_mt_prd_most_popular:
+    -
+      value: false
+  field_mt_prd_price:
+    -
+      value: $12.00
+  field_mt_prd_pricing_table_item:
+    -
+      value: 'Account Balance'
+    -
+      value: 'Online Interface'
+    -
+      value: 'Weekly Reports'
+  field_mt_prd_product_code:
+    -
+      value: '800413'
+  field_mt_prd_subheader_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies appropriately communicate.</p>'
+      format: content_format
+      summary: ''
+  field_mt_prd_subtitle:
+    -
+      value: 'Νext generation power'
+  field_mt_prd_tags:
+    -
+      entity: c1bc1efb-9b35-46bd-a0e7-6560a731c10e
+  field_mt_prd_teaser_image:
+    -
+      entity: 1b87ea25-423b-4199-9de4-205ef9fb133a
+      alt: 'product teaser image'
+      title: ''
+      width: 1280
+      height: 690

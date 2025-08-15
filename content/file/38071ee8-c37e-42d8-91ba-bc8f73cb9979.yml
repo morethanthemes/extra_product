@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 38071ee8-c37e-42d8-91ba-bc8f73cb9979
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-product-4-landscape.jpg
+  uri:
+    -
+      value: 'public://products/mt-product-4-landscape.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 27162
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755276480

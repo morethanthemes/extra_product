@@ -1,0 +1,314 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3ac724a2-3c74-4f50-9280-e60e8bd1c191
+  bundle: mt_product
+  default_langcode: en
+  depends:
+    d9e53d17-fe78-46c7-8473-27f8d447df81: taxonomy_term
+    c294f75b-b007-4be7-9450-75cb30d41d85: file
+    ace88921-fa77-42ea-847d-7a025d329d25: taxonomy_term
+    4d41f9d4-a438-4f74-b93d-6744db717072: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Tenth Product'
+  created:
+    -
+      value: 1755273697
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /products/tenth-product
+      langcode: en
+      pathauto: 0
+  field_mt_prd_availability:
+    -
+      value: in_stock
+  field_mt_prd_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p><blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies. Appropriately communicate adaptive imperatives rather than value-added potentialities.</p></blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p>'
+      format: content_format
+      summary: ''
+  field_mt_prd_buy_link:
+    -
+      uri: 'https://morethanthemes.onfastspring.com/300642734'
+      title: 'Buy Now'
+      options: {  }
+  field_mt_prd_categories:
+    -
+      entity: d9e53d17-fe78-46c7-8473-27f8d447df81
+  field_mt_prd_content_collapses:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bce393ac-7dfd-4d25-bae2-95144d61d5b2
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274119
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q1. First Question'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 218ee454-1eaa-44c7-a077-388b9554c96c
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274336
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q2. Second Question'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0903ed53-ffea-4566-8cb9-40d01a9359c0
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274349
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q3. Third Question'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ac2ff816-3ace-4dfc-a651-56913721471e
+          bundle: mt_collapse
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274364
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_collapse_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae delectus totam quod repudiandae suscipit error possimus earum inventore harum repellat, nemo tempora veritatis ratione accusamus magni eum deleniti voluptate laudantium.</p>'
+              format: content_format
+          field_mt_collapse_title:
+            -
+              value: 'Q4. Fourth Question'
+  field_mt_prd_delivery_options:
+    -
+      value: '<ul><li>Free Shipping</li><li>30 days return free of charge</li><li>Pick up at a example.com collection point</li><li>Day and night customer service</li></ul>'
+      format: content_format
+  field_mt_prd_image:
+    -
+      entity: c294f75b-b007-4be7-9450-75cb30d41d85
+      alt: 'Product image'
+      title: ''
+      width: 1280
+      height: 690
+  field_mt_prd_most_popular:
+    -
+      value: false
+  field_mt_prd_price:
+    -
+      value: $19.99
+  field_mt_prd_product_code:
+    -
+      value: '800413'
+  field_mt_prd_specifications:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 66d34c56-4954-4176-8eaf-d972aa055791
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274119
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Screen resolution Tooltip:'
+          field_mt_prd_specification_value:
+            -
+              value: '14 inches'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 77103eb3-fd76-4736-8547-d783bd841a2c
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274305
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Type of panel:'
+          field_mt_prd_specification_value:
+            -
+              value: TN
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 61112e36-9bb8-47bd-a525-fbc35acf6423
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274311
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Screen finish type:'
+          field_mt_prd_specification_value:
+            -
+              value: Mat
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 28f5b8b0-fd28-4846-96eb-a549faa1db6b
+          bundle: mt_prd_specification
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755274319
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_prd_specification_label:
+            -
+              value: 'Color:'
+          field_mt_prd_specification_value:
+            -
+              value: 'Light Blue'
+  field_mt_prd_subheader_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies appropriately communicate.</p>'
+      format: content_format
+      summary: ''
+  field_mt_prd_tags:
+    -
+      entity: ace88921-fa77-42ea-847d-7a025d329d25
+  field_mt_prd_teaser_image:
+    -
+      entity: 4d41f9d4-a438-4f74-b93d-6744db717072
+      alt: 'product teaser image'
+      title: ''
+      width: 1280
+      height: 690

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 56b5b285-2c41-4a64-9edd-c1a492e73e0b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-product-3.jpg
+  uri:
+    -
+      value: 'public://products/mt-product-3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 20370
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755276742

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7b4ebcd9-48aa-44b2-9dcc-434116750a04
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-product-2-highlight-1.jpg
+  uri:
+    -
+      value: 'public://custom-blocks/mt-product-2-highlight-1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 15416
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755277111

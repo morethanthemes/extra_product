@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1b87ea25-423b-4199-9de4-205ef9fb133a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-product-teaser-2.jpg
+  uri:
+    -
+      value: 'public://products/mt-product-teaser-2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 24679
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755277044
