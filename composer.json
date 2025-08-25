@@ -1,6 +1,6 @@
 {
-    "name": "morethanthemes/extra_service",
-    "description": "Adds a service content type.",
+    "name": "morethanthemes/extra_product",
+    "description": "Adds a product content type.",
     "type": "drupal-recipe",
     "require": {
         "drupal/core": ">=10.4 || ^11",
